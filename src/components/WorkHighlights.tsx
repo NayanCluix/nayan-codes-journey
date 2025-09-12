@@ -61,6 +61,11 @@ const WorkHighlights = () => {
       icon: <Bell className="h-6 w-6" />,
       title: "Weekly Email Notifications",
       description: "Created weekly email notifications for admins showing total tests per device and per week."
+    },
+    {
+      icon: <Shield className="h-6 w-6" />,
+      title: "Rate-limiting",
+      description: "Implemented API Rate Limiting to enhance security and prevent misuse of services."
     }
   ];
 
