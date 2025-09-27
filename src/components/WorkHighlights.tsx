@@ -66,7 +66,27 @@ const WorkHighlights = () => {
       icon: <Shield className="h-6 w-6" />,
       title: "Rate-limiting",
       description: "Implemented API Rate Limiting to enhance security and prevent misuse of services."
-    }
+    },
+    {
+      icon: <Bell className="h-6 w-6" />,
+      title: "SMS Alert Automation",
+      description: "Automated weekly SMS alerts for users who haven't uploaded or performed any tests."
+    },
+    {
+      icon: <Globe className="h-6 w-6" />,
+      title: "Client Logo Upload",
+      description: "Enabled clients to upload their logos for inclusion in generated reports."
+    },
+    {
+      icon: <FileText className="h-6 w-6" />,
+        title: "Training to FPM", 
+      description: "Gave technical training to FPM (Field Project Manager) about the dashboard, data syncing and ticket raising system for better understanding of the system and its functionalities."
+    },
+    {
+      icon: <FileText className="h-6 w-6" />,
+        title: "Test Report Formatted", 
+      description: "Formatted test reports for better readability and presentation."
+    },
   ];
 
   return (
