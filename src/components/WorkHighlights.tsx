@@ -30,7 +30,7 @@ const WorkHighlights = () => {
     {
       icon: <Mail className="h-6 w-6" />,
       title: "DLT Registration & SMS",
-      description: "Set up DLT Registration, SMS headers, and content using msg91 services."
+      description: "Set up DLT Registration, SMS headers, and content using MSG91 services."
     },
     {
       icon: <Globe className="h-6 w-6" />,
@@ -44,7 +44,7 @@ const WorkHighlights = () => {
     },
     {
       icon: <Users className="h-6 w-6" />,
-      title: "Microsoft Migration",
+      title: "Google to Microsoft Migration",
       description: "Migrated organization from Google Workspace to Microsoft 365."
     },
     {
@@ -86,6 +86,21 @@ const WorkHighlights = () => {
       icon: <FileText className="h-6 w-6" />,
         title: "Test Report Formatted", 
       description: "Formatted test reports for better readability and presentation."
+    },
+    {
+      icon: <FileText className="h-6 w-6" />,
+        title: "Assisting Field Manager", 
+      description: "Assisted Field Managers in data syncing and connectivity issues on the field."
+    },
+    {
+      icon: <Database className="h-6 w-6" />,
+        title: "Regular Database Backups", 
+      description: "Need to be Implement regular database backups to ensure data safety and integrity."
+    },
+    {
+      icon: <Globe className="h-6 w-6" />,
+        title: "Chatbot Integration in Website", 
+      description: "Integrated a chatbot into the website for improved user engagement and support."
     },
   ];
 
